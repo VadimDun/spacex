@@ -15,3 +15,26 @@
     overflow-y: scroll;
     border: black 1px solid;
 }
+
+.launch-item {
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.launch-item:hover {
+    background-color: #edf2f7;
+}
+
+.launchpad-marker {
+    fill: #e74c3c;
+    stroke: #ffffff;
+    stroke-width: 1.5px;
+    cursor: pointer;
+}
+
+.launchpad-marker.active {
+    fill: #ffc107;
+    stroke: #222222;
+    stroke-width: 2.5px;
+}
